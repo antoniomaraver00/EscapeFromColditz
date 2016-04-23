@@ -1,14 +1,10 @@
-<configuration>
-    <!-- Default configuration from http://logback.qos.ch/manual/configuration.html -->
-    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
-        <!-- encoders are assigned the type
-             ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
-        <encoder>
-            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
-        </encoder>
-    </appender>
+<configuration scan="true" scanPeriod="10 seconds">
+    <property name="property.level" value="TRACE"/>
+    <property name="property.level.ch-qos-logback" value="INFO" />
 
-    <root level="debug">
-        <appender-ref ref="STDOUT" />
-    </root>
+    <property name="property.location.logFile" value="logs/EscapeFromColditz.log" />
+    <property name="property.location.logFile.rolling" value="logs/EscapeFromColditz-%d{yyyy-MM-dd}.log"/>
+
+
+    <include resource="logback-base.xml" />
 </configuration>

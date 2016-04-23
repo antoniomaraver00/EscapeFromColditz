@@ -1,0 +1,46 @@
+<included>
+
+    <conversionRule conversionWord="hasException"
+                    converterClass="com.jakemarsden.colditz.logging.logback.HasThrowableConditionalConverter" />
+    <conversionRule conversionWord="highlight"
+                    converterClass="com.jakemarsden.colditz.logging.logback.LevelBasedForegroundCompositeConverter" />
+
+
+    <property name="property.pattern.file"
+              value="%nopexception%date{HH:mm:ss.SSS} | %15.15thread | %5.-5level | %40.40logger{40}  |  %message%n%hasException(%exception{full}%n))"/>
+    <property name="property.pattern.console"
+              value="%nopexception%date{HH:mm:ss.SSS} | %10.10thread | %highlight(%5.-5level) | %30.30logger{30}  |  %message%n%hasException(%highlight(%exception{full}%n)))" />
+
+
+    <appender name="appender.console" class="ch.qos.logback.core.ConsoleAppender">
+        <withJansi>false</withJansi>
+        <encoder>
+            <pattern>${property.pattern.console}</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="appender.file" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${property.location.logFile}</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${property.location.logFile.rolling}</fileNamePattern>
+            <maxHistory>30</maxHistory><!-- # of files -->
+            <totalSizeCap>200mb</totalSizeCap>
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+        <encoder>
+            <pattern>${property.pattern.file}</pattern>
+        </encoder>
+    </appender>
+
+
+    <logger name="ch.qos.logback"
+            level="${property.level.ch-qos-logback}" />
+
+    <root level="${property.level}">
+        <appender-ref ref="appender.console"/>
+        <appender-ref ref="appender.file"/>
+    </root>
+
+
+    <shutdownHook class="ch.qos.logback.core.hook.DelayingShutdownHook" />
+</included>

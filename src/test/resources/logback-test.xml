@@ -1,0 +1,10 @@
+<configuration>
+    <property name="property.level" value="TRACE"/>
+    <property name="property.level.ch-qos-logback" value="INFO" />
+
+    <property name="property.location.logFile" value="logs/EscapeFromColditz-Test.log" />
+    <property name="property.location.logFile.rolling" value="logs/EscapeFromColditz-Test-%d{yyyy-MM-dd}.log"/>
+
+
+    <include resource="logback-base.xml" />
+</configuration>
