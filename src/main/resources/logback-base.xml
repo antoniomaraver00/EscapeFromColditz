@@ -35,6 +35,8 @@
 
     <logger name="ch.qos.logback"
             level="${property.level.ch-qos-logback}" />
+    <logger name="org.springframework"
+            level="${property.level.spring-framework}" />
 
     <root level="${property.level}">
         <appender-ref ref="appender.console"/>

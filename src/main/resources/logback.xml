@@ -1,6 +1,7 @@
 <configuration scan="true" scanPeriod="10 seconds">
     <property name="property.level" value="TRACE"/>
     <property name="property.level.ch-qos-logback" value="INFO" />
+    <property name="property.level.org-springframework" value="INFO" />
 
     <property name="property.location.logFile" value="logs/EscapeFromColditz.log" />
     <property name="property.location.logFile.rolling" value="logs/EscapeFromColditz-%d{yyyy-MM-dd}.log"/>
