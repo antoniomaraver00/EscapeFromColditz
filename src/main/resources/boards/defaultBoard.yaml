@@ -1,0 +1,1068 @@
+---
+  tiles:
+    # InnerCourtyard
+    - x: -60
+      y: -110
+      area: InnerCourtyard
+    - x: -50
+      y: -110
+      area: InnerCourtyard
+
+    - x: -80
+      y: -100
+      area: InnerCourtyard
+      safe: true
+    - x: -50
+      y: -100
+      area: InnerCourtyard
+    - x: 50
+      y: -100
+      area: InnerCourtyard
+      safe: true
+
+    - x: -70
+      y: -95
+      area: InnerCourtyard
+      safe: true
+
+    - x: -60
+      y: -90
+      area: InnerCourtyard
+    - x: -50
+      y: -90
+      area: InnerCourtyard
+    - x: 10
+      y: -90
+      area: InnerCourtyard
+    - x: 20
+      y: -90
+      area: InnerCourtyard
+    - x: 30
+      y: -90
+      area: InnerCourtyard
+    - x: 50
+      y: -90
+      area: InnerCourtyard
+      safe: true
+
+    - x: -50
+      y: -80
+      area: InnerCourtyard
+    - x: 10
+      y: -80
+      area: InnerCourtyard
+    - x: 50
+      y: -80
+      area: InnerCourtyard
+
+    - x: -55
+      y: -70
+      area: InnerCourtyard
+    - x: -45
+      y: -70
+      area: InnerCourtyard
+    - x: -35
+      y: -70
+      area: InnerCourtyard
+    - x: -25
+      y: -70
+      area: InnerCourtyard
+    - x: -15
+      y: -70
+      area: InnerCourtyard
+    - x: 10
+      y: -70
+      area: InnerCourtyard
+    - x: 35
+      y: -70
+      area: InnerCourtyard
+    - x: 45
+      y: -70
+      area: InnerCourtyard
+    - x: 55
+      y: -70
+      area: InnerCourtyard
+    - x: 65
+      y: -70
+      area: InnerCourtyard
+    - x: 75
+      y: -70
+      area: InnerCourtyard
+
+    - x: -60
+      y: -60
+      area: InnerCourtyard
+    - x: -50
+      y: -60
+      area: InnerCourtyard
+    - x: -40
+      y: -60
+      area: InnerCourtyard
+    - x: -30
+      y: -60
+      area: InnerCourtyard
+    - x: -20
+      y: -60
+      area: InnerCourtyard
+    - x: -10
+      y: -60
+      area: InnerCourtyard
+    - x: 10
+      y: -60
+      area: InnerCourtyard
+    - x: 30
+      y: -60
+      area: InnerCourtyard
+    - x: 40
+      y: -60
+      area: InnerCourtyard
+    - x: 50
+      y: -60
+      area: InnerCourtyard
+    - x: 60
+      y: -60
+      area: InnerCourtyard
+    - x: 70
+      y: -60
+      area: InnerCourtyard
+
+    - x: -65
+      y: -50
+      area: InnerCourtyard
+    - x: -55
+      y: -50
+      area: InnerCourtyard
+    - x: -45
+      y: -50
+      area: InnerCourtyard
+    - x: -35
+      y: -50
+      area: InnerCourtyard
+    - x: -25
+      y: -50
+      area: InnerCourtyard
+    - x: -15
+      y: -50
+      area: InnerCourtyard
+    - x: -5
+      y: -50
+      area: InnerCourtyard
+    - x: 5
+      y: -50
+      area: InnerCourtyard
+    - x: 15
+      y: -50
+      area: InnerCourtyard
+    - x: 25
+      y: -50
+      area: InnerCourtyard
+    - x: 35
+      y: -50
+      area: InnerCourtyard
+    - x: 45
+      y: -50
+      area: InnerCourtyard
+    - x: 55
+      y: -50
+      area: InnerCourtyard
+    - x: 65
+      y: -50
+      area: InnerCourtyard
+
+    - x: -70
+      y: -40
+      area: InnerCourtyard
+    - x: -60
+      y: -40
+      area: InnerCourtyard
+    - x: -50
+      y: -40
+      area: InnerCourtyard
+    - x: -40
+      y: -40
+      area: InnerCourtyard
+    - x: -30
+      y: -40
+      area: InnerCourtyard
+    - x: -20
+      y: -40
+      area: InnerCourtyard
+    - x: -10
+      y: -40
+      area: InnerCourtyard
+    - x: 0
+      y: -40
+      area: InnerCourtyard
+    - x: 10
+      y: -40
+      area: InnerCourtyard
+    - x: 20
+      y: -40
+      area: InnerCourtyard
+    - x: 30
+      y: -40
+      area: InnerCourtyard
+    - x: 40
+      y: -40
+      area: InnerCourtyard
+    - x: 50
+      y: -40
+      area: InnerCourtyard
+    - x: 60
+      y: -40
+      area: InnerCourtyard
+    - x: 70
+      y: -40
+      area: InnerCourtyard
+
+    - x: -75
+      y: -30
+      area: InnerCourtyard
+    - x: -65
+      y: -30
+      area: InnerCourtyard
+    - x: -55
+      y: -30
+      area: InnerCourtyard
+    - x: -45
+      y: -30
+      area: InnerCourtyard
+    - x: -35
+      y: -30
+      area: InnerCourtyard
+    - x: -25
+      y: -30
+      area: InnerCourtyard
+    - x: 25
+      y: -30
+      area: InnerCourtyard
+    - x: 35
+      y: -30
+      area: InnerCourtyard
+    - x: 45
+      y: -30
+      area: InnerCourtyard
+    - x: 55
+      y: -30
+      area: InnerCourtyard
+    - x: 65
+      y: -30
+      area: InnerCourtyard
+    - x: 75
+      y: -30
+      area: InnerCourtyard
+
+    - x: -90
+      y: -20
+      area: InnerCourtyard
+    - x: -80
+      y: -20
+      area: InnerCourtyard
+    - x: -70
+      y: -20
+      area: InnerCourtyard
+    - x: -60
+      y: -20
+      area: InnerCourtyard
+    - x: -50
+      y: -20
+      area: InnerCourtyard
+    - x: -40
+      y: -20
+      area: InnerCourtyard
+    - x: -30
+      y: -20
+      area: InnerCourtyard
+    - x: 30
+      y: -20
+      area: InnerCourtyard
+    - x: 40
+      y: -20
+      area: InnerCourtyard
+    - x: 50
+      y: -20
+      area: InnerCourtyard
+    - x: 60
+      y: -20
+      area: InnerCourtyard
+    - x: 70
+      y: -20
+      area: InnerCourtyard
+    - x: 80
+      y: -20
+      area: InnerCourtyard
+
+    - x: -85
+      y: -10
+      area: InnerCourtyard
+    - x: -75
+      y: -10
+      area: InnerCourtyard
+    - x: -65
+      y: -10
+      area: InnerCourtyard
+    - x: -55
+      y: -10
+      area: InnerCourtyard
+    - x: -45
+      y: -10
+      area: InnerCourtyard
+    - x: -35
+      y: -10
+      area: InnerCourtyard
+    - x: 35
+      y: -10
+      area: InnerCourtyard
+    - x: 45
+      y: -10
+      area: InnerCourtyard
+    - x: 55
+      y: -10
+      area: InnerCourtyard
+    - x: 65
+      y: -10
+      area: InnerCourtyard
+    - x: 75
+      y: -10
+      area: InnerCourtyard
+
+    - x: -90
+      y: 0
+      area: InnerCourtyard
+    - x: -80
+      y: 0
+      area: InnerCourtyard
+    - x: -70
+      y: 0
+      area: InnerCourtyard
+    - x: -60
+      y: 0
+      area: InnerCourtyard
+    - x: -50
+      y: 0
+      area: InnerCourtyard
+    - x: -40
+      y: 0
+      area: InnerCourtyard
+    - x: 40
+      y: 0
+      area: InnerCourtyard
+    - x: 50
+      y: 0
+      area: InnerCourtyard
+    - x: 60
+      y: 0
+      area: InnerCourtyard
+    - x: 70
+      y: 0
+      area: InnerCourtyard
+    - x: 80
+      y: 0
+      area: InnerCourtyard
+
+    - x: -85
+      y: 10
+      area: InnerCourtyard
+    - x: -75
+      y: 10
+      area: InnerCourtyard
+    - x: -65
+      y: 10
+      area: InnerCourtyard
+    - x: -55
+      y: 10
+      area: InnerCourtyard
+    - x: -45
+      y: 10
+      area: InnerCourtyard
+    - x: -35
+      y: 10
+      area: InnerCourtyard
+    - x: 35
+      y: 10
+      area: InnerCourtyard
+    - x: 45
+      y: 10
+      area: InnerCourtyard
+    - x: 55
+      y: 10
+      area: InnerCourtyard
+    - x: 65
+      y: 10
+      area: InnerCourtyard
+    - x: 75
+      y: 10
+      area: InnerCourtyard
+    - x: 85
+      y: 10
+      area: InnerCourtyard
+
+    - x: -120
+      y: 20
+      area: InnerCourtyard
+      safe: true
+    - x: -110
+      y: 20
+      area: InnerCourtyard
+      safe: true
+    - x: -100
+      y: 20
+      area: InnerCourtyard
+    - x: -90
+      y: 20
+      area: InnerCourtyard
+    - x: -80
+      y: 20
+      area: InnerCourtyard
+    - x: -70
+      y: 20
+      area: InnerCourtyard
+    - x: -60
+      y: 20
+      area: InnerCourtyard
+    - x: -50
+      y: 20
+      area: InnerCourtyard
+    - x: -40
+      y: 20
+      area: InnerCourtyard
+    - x: -30
+      y: 20
+      area: InnerCourtyard
+    - x: 30
+      y: 20
+      area: InnerCourtyard
+    - x: 40
+      y: 20
+      area: InnerCourtyard
+    - x: 50
+      y: 20
+      area: InnerCourtyard
+    - x: 60
+      y: 20
+      area: InnerCourtyard
+    - x: 70
+      y: 20
+      area: InnerCourtyard
+    - x: 80
+      y: 20
+      area: InnerCourtyard
+    - x: 90
+      y: 20
+      area: InnerCourtyard
+
+    - x: -85
+      y: 30
+      area: InnerCourtyard
+    - x: -75
+      y: 30
+      area: InnerCourtyard
+    - x: -65
+      y: 30
+      area: InnerCourtyard
+    - x: -55
+      y: 30
+      area: InnerCourtyard
+    - x: -45
+      y: 30
+      area: InnerCourtyard
+    - x: -35
+      y: 30
+      area: InnerCourtyard
+    - x: -25
+      y: 30
+      area: InnerCourtyard
+    - x: 25
+      y: 30
+      area: InnerCourtyard
+    - x: 35
+      y: 30
+      area: InnerCourtyard
+    - x: 45
+      y: 30
+      area: InnerCourtyard
+    - x: 55
+      y: 30
+      area: InnerCourtyard
+    - x: 65
+      y: 30
+      area: InnerCourtyard
+    - x: 75
+      y: 30
+      area: InnerCourtyard
+    - x: 85
+      y: 30
+      area: InnerCourtyard
+
+    - x: -70
+      y: 40
+      area: InnerCourtyard
+    - x: -60
+      y: 40
+      area: InnerCourtyard
+    - x: -50
+      y: 40
+      area: InnerCourtyard
+    - x: -40
+      y: 40
+      area: InnerCourtyard
+    - x: -30
+      y: 40
+      area: InnerCourtyard
+    - x: -20
+      y: 40
+      area: InnerCourtyard
+    - x: -10
+      y: 40
+      area: InnerCourtyard
+    - x: 0
+      y: 40
+      area: InnerCourtyard
+    - x: 10
+      y: 40
+      area: InnerCourtyard
+    - x: 20
+      y: 40
+      area: InnerCourtyard
+    - x: 30
+      y: 40
+      area: InnerCourtyard
+    - x: 40
+      y: 40
+      area: InnerCourtyard
+    - x: 50
+      y: 40
+      area: InnerCourtyard
+    - x: 60
+      y: 40
+      area: InnerCourtyard
+    - x: 70
+      y: 40
+      area: InnerCourtyard
+    - x: 80
+      y: 40
+      area: InnerCourtyard
+
+    - x: -55
+      y: 50
+      area: InnerCourtyard
+    - x: -45
+      y: 50
+      area: InnerCourtyard
+    - x: -35
+      y: 50
+      area: InnerCourtyard
+    - x: -25
+      y: 50
+      area: InnerCourtyard
+    - x: -15
+      y: 50
+      area: InnerCourtyard
+    - x: -5
+      y: 50
+      area: InnerCourtyard
+    - x: 5
+      y: 50
+      area: InnerCourtyard
+    - x: 15
+      y: 50
+      area: InnerCourtyard
+    - x: 25
+      y: 50
+      area: InnerCourtyard
+    - x: 35
+      y: 50
+      area: InnerCourtyard
+    - x: 45
+      y: 50
+      area: InnerCourtyard
+    - x: 55
+      y: 50
+      area: InnerCourtyard
+    - x: 65
+      y: 50
+      area: InnerCourtyard
+    - x: 75
+      y: 50
+      area: InnerCourtyard
+
+    - x: -65
+      y: 55
+      area: InnerCourtyard
+
+    - x: -20
+      y: 60
+      area: InnerCourtyard
+    - x: -10
+      y: 60
+      area: InnerCourtyard
+    - x: 0
+      y: 60
+      area: InnerCourtyard
+    - x: 10
+      y: 60
+      area: InnerCourtyard
+    - x: 20
+      y: 60
+      area: InnerCourtyard
+    - x: 30
+      y: 60
+      area: InnerCourtyard
+    - x: 45
+      y: 60
+      area: InnerCourtyard
+    - x: 70
+      y: 60
+      area: InnerCourtyard
+
+    - x: -70
+      y: 65
+      area: InnerCourtyard
+
+    - x: -15
+      y: 70
+      area: InnerCourtyard
+    - x: -5
+      y: 70
+      area: InnerCourtyard
+    - x: 5
+      y: 70
+      area: InnerCourtyard
+    - x: 15
+      y: 70
+      area: InnerCourtyard
+    - x: 25
+      y: 70
+      area: InnerCourtyard
+    - x: 45
+      y: 70
+      area: InnerCourtyard
+      safe: true
+    - x: 55
+      y: 70
+      area: InnerCourtyard
+      safe: true
+    - x: 75
+      y: 70
+      area: InnerCourtyard
+
+    - x: -20
+      y: 80
+      area: InnerCourtyard
+    - x: -10
+      y: 80
+      area: InnerCourtyard
+    - x: 0
+      y: 80
+      area: InnerCourtyard
+    - x: 10
+      y: 80
+      area: InnerCourtyard
+    - x: 20
+      y: 80
+      area: InnerCourtyard
+    - x: 80
+      y: 80
+      area: InnerCourtyard
+    - x: 90
+      y: 80
+      area: InnerCourtyard
+
+    - x: -5
+      y: 90
+      area: InnerCourtyard
+    - x: 5
+      y: 90
+      area: InnerCourtyard
+    - x: 15
+      y: 90
+      area: InnerCourtyard
+    - x: 85
+      y: 90
+      area: InnerCourtyard
+
+    - x: 0
+      y: 100
+      area: InnerCourtyard
+    - x: 10
+      y: 100
+      area: InnerCourtyard
+    - x: 20
+      y: 100
+      area: InnerCourtyard
+
+    - x: 5
+      y: 110
+      area: InnerCourtyard
+    - x: 15
+      y: 110
+      area: InnerCourtyard
+
+    - x: 0
+      y: 120
+      area: InnerCourtyard
+    - x: 10
+      y: 120
+      area: InnerCourtyard
+    - x: 20
+      y: 120
+      area: InnerCourtyard
+
+    - x: 30
+      y: 125
+      area: InnerCourtyard
+
+    - x: 5
+      y: 130
+      area: InnerCourtyard
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # InnerCourtyard -> AssemblyArea
+    -
+      x: -15
+      y: -30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -5
+      y: -30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 5
+      y: -30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 15
+      y: -30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -20
+      y: -20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -10
+      y: -20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 0
+      y: -20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 10
+      y: -20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 20
+      y: -20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -25
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -15
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -5
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 5
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 15
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 25
+      y: -10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -30
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -20
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -10
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 0
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 10
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 20
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 30
+      y: 0
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -25
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -15
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -5
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 5
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 15
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 25
+      y: 10
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -20
+      y: 20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -10
+      y: 20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 0
+      y: 20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 10
+      y: 20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 20
+      y: 20
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -15
+      y: 30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: -5
+      y: 30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 5
+      y: 30
+      area: InnerCourtyard
+      room: AssemblyArea
+    -
+      x: 15
+      y: 30
+      area: InnerCourtyard
+      room: AssemblyArea
+
+
+    # InnerCourtyard -> Canteen
+    # InnerCourtyard -> Chapel
+    # InnerCourtyard -> Dentist
+    -
+      x: -30
+      y: -110
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -10
+      y: -110
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -30
+      y: -100
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -10
+      y: -100
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -30
+      y: -90
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -20
+      y: -90
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: -10
+      y: -90
+      area: InnerCourtyard
+      room: Dentist
+    -
+      x: 0
+      y: -90
+      area: InnerCourtyard
+      room: Dentist
+
+
+    # InnerCourtyard -> GuardHouse
+    # InnerCourtyard -> InterviewRoom
+    # InnerCourtyard -> Kitchen
+    # InnerCourtyard -> Laundry
+    -
+      x: 30
+      y: -120
+      area: InnerCourtyard
+      room: Laundry
+    -
+      x: 40
+      y: -120
+      area: InnerCourtyard
+      room: Laundry
+    -
+      x: 30
+      y: -110
+      area: InnerCourtyard
+      room: Laundry
+    -
+      x: 30
+      y: -100
+      area: InnerCourtyard
+      room: Laundry
+
+    
+    # InnerCourtyard -> Office
+    # InnerCourtyard -> OfficersQuarters
+    # InnerCourtyard -> OrderliesQuarters
+    # InnerCourtyard -> ParcelOffice
+    - x: -75
+      y: 75
+      area: InnerCourtyard
+      room: ParcelOffice
+    - x: -80
+      y: 85
+      area: InnerCourtyard
+      room: ParcelOffice
+
+
+    # InnerCourtyard -> Showers
+    - x: 30
+      y: 100
+      area: InnerCourtyard
+      room: Showers
+    - x: 40
+      y: 100
+      area: InnerCourtyard
+      room: Showers
+    - x: 50
+      y: 100
+      area: InnerCourtyard
+      room: Showers
+
+
+    # InnerCourtyard -> SickBay
+    # InnerCourtyard -> Store
+    # InnerCourtyard -> Theatre
+    - x: 40
+      y: 125
+      area: InnerCourtyard
+      room: Theatre
+    - x: 50
+      y: 125
+      area: InnerCourtyard
+      room: Theatre
+
+    - x: 40
+      y: 135
+      area: InnerCourtyard
+      room: Theatre
+    - x: 50
+      y: 135
+      area: InnerCourtyard
+      room: Theatre
+    - x: 60
+      y: 135
+      area: InnerCourtyard
+      room: Theatre
+    - x: 70
+      y: 135
+      area: InnerCourtyard
+      room: Theatre
+
+    - x: 30
+      y: 140
+      area: InnerCourtyard
+      room: Theatre
+
+
+    # InnerCourtyard -> Wc
+    -
+      x: 10
+      y: -110
+      area: InnerCourtyard
+      room: Wc
+    -
+      x: 10
+      y: -100
+      area: InnerCourtyard
+      room: Wc
