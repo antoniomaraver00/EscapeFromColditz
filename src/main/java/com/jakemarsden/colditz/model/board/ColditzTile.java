@@ -10,7 +10,12 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
+ * Represents a physical tile which POWs etc. can move to. Can be instantiated as part of a
+ * {@link ColditzBoard} via a {@link BoardLoader}.
+ *
  * @author jakemarsden
+ * @see BoardLoader
+ * @see ColditzBoard
  */
 @RequiredArgsConstructor(access = AccessLevel.PACKAGE)
 class ColditzTile implements Tile {

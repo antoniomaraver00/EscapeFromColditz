@@ -1,3 +1,6 @@
+# Represents the original Colditz board
+# See com.jakemarsden.colditz.model.board.BoardLoader
+
 ---
   tiles:
     # InnerCourtyard

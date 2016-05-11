@@ -7,11 +7,20 @@ import lombok.RequiredArgsConstructor;
 import static com.jakemarsden.colditz.model.EscapeEquipment.*;
 
 /**
+ * The different rooms of the game, as marked on the original Colidtz board.
+ * <figure>
+ * <img src="doc-files/originalBoard.jpg" alt="Original Colditz board" />
+ * <figcaption>The original Colditz board. <a href="http://www.markalldridge.co.uk/escape-from-colditz.html">Source</a>.</figcaption>
+ * </figure>
+ *
  * @author jakemarsden
  */
 @RequiredArgsConstructor
 public enum Room {
 
+    /**
+     * This tile is not inside a {@code Room}
+     */
     None(null),
 
     AssemblyArea(null),

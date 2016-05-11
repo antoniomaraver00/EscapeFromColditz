@@ -2,9 +2,12 @@ package com.jakemarsden.colditz.model.board;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.RequiredArgsConstructor;
 
 /**
+ * A reference to a specific location on a {@code Board}.
+ *
  * @author jakemarsden
  */
 @RequiredArgsConstructor(staticName = "at")
@@ -23,7 +26,7 @@ public final class Coord {
     }
 
 
-    public double distanceFrom(Coord other) {
+    public double distanceFrom(@NonNull Coord other) {
         return Math.hypot(getX() - other.getX(), getY() - other.getY());
     }
 

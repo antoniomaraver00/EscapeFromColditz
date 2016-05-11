@@ -4,6 +4,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.yaml.YAMLFactory;
 
 /**
+ * Provides access the global Jackson {@link ObjectMapper} reference
+ *
  * @author jakemarsden
  */
 public final class Json {
@@ -14,6 +16,9 @@ public final class Json {
     }
 
 
+    /**
+     * @return The global Jackson {@link ObjectMapper}
+     */
     public static ObjectMapper getMapper() {
         return mapper;
     }

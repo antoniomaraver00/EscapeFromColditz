@@ -9,11 +9,15 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.net.URL;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 
 /**
+ * Defines how Colditz boards are stored and loaded into the game. Instances must be managed by
+ * Spring to work correctly.
+ *
  * @author jakemarsden
+ * @see ColditzBoard
+ * @see ColditzTile
  */
 @Component
 @Slf4j
@@ -22,8 +26,15 @@ public class BoardLoader {
     private URL defaultBoardDefinition;
 
 
+    /**
+     * Loads and returns an instance of the default game board
+     * <figure>
+     * <img src="doc-files/originalBoard.jpg" alt="Original Colditz board" />
+     * <figcaption>The original Colditz board. <a href="http://www.markalldridge.co.uk/escape-from-colditz.html">Source</a>.</figcaption>
+     * </figure>
+     */
     @SneakyThrows(IOException.class)
-    public Board loadBoard() {
+    public Board loadDefaultBoard() {
         final JsonBoard jsonBoard = Json.getMapper().readValue(defaultBoardDefinition, JsonBoard.class);
         final ColditzBoard board = jsonBoard.toColditzBoard();
         logger.debug("Board loaded: {}", board);
@@ -31,6 +42,9 @@ public class BoardLoader {
     }
 
 
+    /**
+     * How a {@link ColditzTile} will be represented in JSON
+     */
     @AllArgsConstructor
     @NoArgsConstructor
     private static class JsonTile {
@@ -51,11 +65,6 @@ public class BoardLoader {
         private Boolean safe = false;
 
 
-        static JsonTile fromColditzTile(@NonNull ColditzTile tile) {
-            final Coord coord = tile.getCoord();
-            return new JsonTile(coord.getX(), coord.getY(), tile.getArea(), tile.getRoom(), tile.isSafe());
-        }
-
         ColditzTile toColditzTile(@NonNull ColditzBoard board) {
             Room room = (this.room == null) ? Room.None : this.room;
             boolean safe = (this.safe == null) ? false : this.safe;
@@ -63,19 +72,15 @@ public class BoardLoader {
         }
     }
 
+    /**
+     * How a {@link ColditzBoard} will be represented in JSON
+     */
     @AllArgsConstructor
     @NoArgsConstructor
     private static class JsonBoard {
         @Getter
         @Setter
         private Set<JsonTile> tiles;
-
-        static JsonBoard fromColditzBoard(@NonNull ColditzBoard board) {
-            final Set<JsonTile> jsonTiles = board.getColditzTiles().stream()
-                    .map(JsonTile::fromColditzTile)
-                    .collect(Collectors.toSet());
-            return new JsonBoard(jsonTiles);
-        }
 
         ColditzBoard toColditzBoard() {
             final ColditzBoard board = new ColditzBoard();

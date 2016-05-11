@@ -10,7 +10,12 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 /**
+ * Represents the physical board which POWs etc. can move around in the game. Made up of a series of
+ * {@link ColditzTile}s. Can be instantiated via a {@link BoardLoader}.
+ *
  * @author jakemarsden
+ * @see BoardLoader
+ * @see ColditzTile
  */
 @NoArgsConstructor(access = AccessLevel.PACKAGE)
 class ColditzBoard implements Board {
